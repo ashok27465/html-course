@@ -1,0 +1,59 @@
+Level 3 -> Browser Tools
+
+1. Browser Tools
+    1. View Page Source
+    2. Inspect Element
+    3. HTML without CSS
+1.1 View Page Source: 
+    1. Displays raw HTML and CSS
+    2. Useful for debugging and learning
+    3. Shows external files like JavaScript links
+1.2 Inspect Element:
+    1. Allows real-time editing of HTML/CSS
+    2. Useful for debugging and testing
+    3. Shows element hierarchy and layout
+    4. Includes console for JavaScript
+    5. Highlights selected elements on page
+1.3 HTML without CSS:
+  (<images/Screenshot (142).png>)
+
+2. Responsive Design
+2.1 Different screen size:
+    1. Adapts layout for different screen sizes
+    2. Flexible layouts
+    3. Optimizes images and assets
+    4. Enhances user experience on mobile and desktop
+
+3. Live Edit Code
+    1. Live edit HTML
+    2. Live edit CSS
+    3. Live edit JS
+    4. Changes only happening at client
+3.1 Live edit HTML:
+   Open Inspect Changed Subscribercount
+3.2 Live edit CSS:
+   Open Inspect Changed Channel Name color
+3.3 Live edit JS:
+    Open Inspect check the code 
+3.4 changes happening at client
+    1. changes made are temporary
+    2. affect only the current session
+    3. not saved to the server
+    4. reset upon to the reload
+    5. useful for testing,not permanent fixes
+like: if you change the question in your question paper that has no effect on actual exam
+
+4. Validating Web Pages
+    1. Using validator.w3.org
+4.1 using validator:
+    1. ensures HTML adheres to standards
+    2. minimizes cross-broweser issues
+    3. helps in achieving better SEO results
+    4. Easier to debug and maintain
+    5. Optimizes performance by reducing parsing
+    errors
+Project
+    1. Save Source of Instagram in a file and check the render.
+    2. Inspect the likes element on the page and read the code to understand.
+    3. Change number of likes on Your Instagram post.
+    4. Validate the page we created in last project.

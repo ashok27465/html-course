@@ -1,0 +1,94 @@
+LEVE 2 -> Must-Use HTML Tags
+
+1) HTML Attributes
+    1. What are HTML Attributes
+    2. Id Property
+
+1.1 What are HTML Attributes:
+    1. Provides additional information about elements
+    2. Placed within opening tags
+    3. Common examples: href,src,alt 
+    4. Use name=value format
+    5. Can be single or multiple per elements
+1.2 Id Property:
+    * Unique Identifer: Each id should be unique within a page.
+    * Anchoring: Allows for direct links to section using the #id syntax in URLs
+    * CSS & JavaScript: Used for selecting elements for styling or scripting
+
+2) HTML Tags
+    1. Heading Tag
+    2. Paragraph Tag
+    3. <BR> <HR> tags
+    4. Image Tag
+    5. Video Tag
+    6. Anchor Tag
+    7. Bold / Italic / Underline / Strikethrough
+    8. Pre Tag
+    9. Big / Small Tag
+    10. Superscript / Subscript
+2.1 Heading tags:
+    1. Defines headings in a document
+    2. Ranges from <h1> to <h6>
+    3. <h1> is most important, <h6> is least
+    4. Important for SEO
+    5. Helps in structring content
+2.2 Paragraph tags:
+    1. used for defining paragraphs
+    2. Enclosed within <p>to</p>tags
+    3. Adds automatic spacing before and after
+    4. Text wraps to next line inside tag
+    5. Common in text-heavy content
+2.3 <br> <hr> tags:
+    1. <br> adds a link break within text
+    2. <br> is empty, no closing tag needed
+    3. <br> and <br/> are both valid
+    4. <hr> create a horizantal rule or line
+    5. <hr> also emplty, acts as a divider
+2.4 Image tags:
+    1. used to embed images
+    2. Utilizes the src attribute for images url
+    3. alt attribute for alternative text
+    4. can be resize using width and height
+    5. self-closing, doesnt require an end tag
+2.5 Video tag:
+    1. embeds video files on a page
+    2. uses src attribute for video URL
+    3. Supports multiple formats like MP4, webM
+    4. allows for built-in controls via attributes like autoplay, controls, loop
+2.6 Anchor tag:
+    1. user for creating hyperlinks
+    2. requires href attribute for URL
+    3. can link to external sites or internal pages
+    4. supports target attribute to control link behavior
+2.7 Bold / Italic / Underline / Strikethrough:
+    1. <b> makes text bold
+    2. <i> makes text italic
+    3. <u> underlines text
+    4. <s> or <strike> applies strikethrough
+    5. primary used for text styling and emphasis
+2.8 Per tag:
+    1. preserves text formatting
+    2. maintains whitespace and line breaks
+    3. useful for displaying code
+    4. enclosed within <per> and </per> tag
+2.9 Big/Small tag:
+    1. <big> increases text size
+    2. <small>decreases text size
+    3. less common due to css alternatives
+2.10 Superscript/Subscript tag:
+    1. <sup>makes text superscript
+    2. <sub>makes text subscript
+    3. used for mathematical equations, footnotes
+    4. does not change font size, just position
+    
+3) Character Entity Reference
+    1. What are Character Entity References
+3.1 Character Entity reference:
+    1. used to display reserved or special characters 
+    2. syntax often starts with & and ends with ; (e.g., & amp: for&)
+
+Project
+    1. Create a page with heading,paragraph,line breaks and separators.
+    2. Use an image with height 300, withch is a link to another page. 
+    3. Use bold,italic,underline and strike through in one line.
+    4. Write third equation of motion using superscript and subscript.

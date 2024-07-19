@@ -1,0 +1,82 @@
+Level 4 -> HTML and Project Structure
+
+1) Semantic Tags
+  1. Semantic / Non-Semantic Tags
+
+ Semantic tags:                                                          Non-semantic tags:
+    ● Meaningful: Describe content.                                     ● Generic: No specific meaning.
+    ● SEO: Good for search engines.                                     ● For Styling: Used for layout.
+    ● Accessibility: Useful for screen readers.                         ● No SEO: Not SEO-friendly.  
+    ● Examples: <header>, <footer>, <article>, <section>, <nav>.        ● Examples:<div>,<span>,<i>,<b>.
+
+2) Body Tags
+ 2.1 Header tag:
+     1. Purpose: Used to contain introductory content or navigation links.
+     2. Semantic: It's a semantic tag, providing meaning to the enclosed content.
+     3. Location: Commonly found at the top of web pages, but can also appear within <article> or <section> tags.
+     4. Multiple Instances: Can be used more than once on a page within different sections.
+ 2.2 Main Tag:
+     1. Purpose: Encloses the primary content of a webpage.
+     2. Semantic: Adds meaning, indicating the maincontent area.
+     3. Unique: Should appear only once per page.
+     4. Accessibility: Helps screen readers identify key content.
+     5. Not for Sidebars: Excludes content repeated across multiple pages like site navigation or footer.
+    2.2.1. Section Tag:
+        1. Purpose: Groups related content in a distinct section.
+        2. Semantic: Adds structure and meaning.
+        3. Headers: Often used with a heading <h1> to <h6> to indicate section topic.
+        4. Nested: Can be nested within other <section> or <article> tags
+    2.2.2 Article Tag:
+       1. Purpose: Encloses content that stands alone, like a blog post or news story.
+       2. Semantic: Provides contextual meaning.
+       3. Independence: Content should make sense even if taken out of the page context.
+       4. Multiple Instances: Can be used multiple times on the same page
+    2.2.3. Aside Tag:
+       1. Purpose: Contains sidebar or supplementary content.
+       2. Semantic: Indicates content tangentially related to the main content.
+       3. Not Crucial: Content is not essential to understanding the main content.
+       4. Examples: Could hold widgets, quotes, or ads
+ 2.3 Footer Tag:
+    1. Purpose: For footer content like extra info or links.
+    2. Semantic: Provides meaning to enclosed content.
+    3. Location: Typically at the bottom of pages or sections.
+    4. Content: Includes copyrights, contact info, and social links.
+    5. Multiple Instances: Can be used more than once on a page
+3) Folder Structure
+   3.1 Recommended Folder structure:
+        1. Root Directory: Main folder containing all website files.
+        2. HTML Files: Store main .html files at the root level for easy access.
+        3. CSS Folder: Create a css/ folder for all
+        Cascading Style Sheets.
+        4. JS Folder: Use a scripts/ folder for JavaScript files.
+        5. Images Folder: Store images in an images/ or images/ folder.
+        6. Assets: Other assets like fonts can go in an assets/ folder.
+        7. Sub-directories: For multi-page websites, use sub-folders to categorize content
+4) More Tags
+    4.1 Navigation tags:
+      1. Purpose: Encloses navigation links or menus.
+      2. Semantic: Signals that the content is meant for navigating the site.
+      3. Common Content: Usually contains lists <ul>, <ol> of links <a>.
+      4. Accessibility: Aids screen readers in identifying site navigation
+    4.2 Block / Inline Elements:
+         Block Elements:                                   Inline Elements:
+      ● New Line: Start on a new line.                     ● Flow: Stay in line with text.
+      ● Full Width: Take up all horizontal space.          ● Width: Just as wide as the content.
+      ● Styling: Can have margins and padding.             ● No Break: No new line between elements.
+      ● Size: Width and height can be set.                 ● Limited Styling: Can't set size easily.
+      ● Examples:<div>,<p>,<h1>,<ul>,<li>.                 ● Examples:<span>,<a>,<strong>,<em>,<img>.
+    4.3 Div tags:
+      1. Purpose: Acts as a container for other HTML elements.
+      2. Non-Semantic: Doesn't provide inherent meaning to enclosed content.
+      3. Styling: Commonly used for layout and styling via CSS.
+      4. Flexibility: Highly versatile and can be customized using classes or IDs.
+    4.4 Span Tags:
+      1. Purpose: Used for inline elements to style or manipulate a portion of text.
+      2. Non-Semantic: Doesn't add specific meaning to the enclosed text.
+      3. Styling: Commonly used for changing color, font, or adding effects via CSS.
+      4. Inline Nature: Doesn't break text flow or create a new block-level element.
+Project
+1. Create a page with header, footer, main(section, article, aside tag).
+2. Make sure the project from level 3 has correct folder structure.
+3. Create groupings of multiple tags using div.
+4. Create navigation to important sections of your page

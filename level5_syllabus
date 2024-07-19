@@ -1,0 +1,62 @@
+Level 5 => List, Tables & Forms
+
+1) List Tag
+    1.1 Ordered Lists:
+      1. Purpose: Used for creating lists with items that have a specific order.
+      2. Default: Items are automatically numbered.
+      3. Nesting: Can be nested within other lists.  
+    1.2 Types of Ordered Lists:
+      ● Numeric: Default type, (1, 2, 3, ...) Attribute: type="1"
+      ● Uppercase Letters: (A, B, C, ...) Attribute: type="A"
+      ● Lowercase Letters: (a, b, c, ...) Attribute: type="a"
+      ● Uppercase Roman: (I, II, III, ...) Attribute: type="I"
+      ● Lowercase Roman: (i, ii, iii, ...) Attribute: type="i"
+    1.3 Unordered Lists:
+      1. Purpose: Used for lists where the order of items doesn't matter.
+      2. Default: Items are usually bulleted.
+      3. Nesting: Can be nested within other lists.
+2) Table Tag
+    2.1 <tr>, <td>, <th> tags:
+      1. <tr> Table Row : Used to define a row in an HTML table.
+      2. <th> Table Header : Used for header cells within a row. Text is bold and centered by default.
+      3. <td> Table Data : This Holds the actual data.
+    2.2 Captions:
+      1. Purpose: Provides a title or description for a table.
+      2. Placement: Must be inserted immediately after the <table> opening tag.
+      3. Alignment: Centered above the table by default.
+      4. Accessibility: Helps screen readers understand the table's purpose 
+    2.3 Col spans:
+      1. Attribute: Uses the colspan attribute in <td> or <th> tags.
+      2. Purpose: Allows a cell to span multiple columns horizontally.
+      3. Alignment: Takes the space of the specified number of columns.
+      4. Layout: Useful for combining cells to create complex table layouts.
+3) Forms
+    3.1 Input tag:
+      1. Purpose: Used within a <form> element to collect user input.
+      2. Self-Closing: The <input> tag is self-closing; doesn't require a closing tag.
+      3. Attributes: Common attributes are name, value, placeholder, and required.
+    3.2 Action Attributes:
+      1. Purpose: Specifies the URL to which the form data should be sent when submitted.
+      2. Default: If not specified, the form will be submitted to the current page's URL.
+      3. Server-Side: Usually points to a server-side script (like PHP, Python, etc.) that processes the form data
+    3.3 Name and Value Property:
+      ● `name` Property: ○ ID for Data: Identifies form elements when submitting. ○ Unique: Should be unique to each element for clarity.
+      ● `value` Property: ○ Default Data: Sets initial value for input elements.○ Sent to Server: This is the data sent when form is submitted.
+    3.4 Label Tag:
+      ● Purpose: Adds a text description to form elements.
+      ● for Attribute: Connects the label to a specific form element using the element's id.
+      ● Accessibility: Makes the form more accessible.
+      ● Readability: Enhances form readability and usability
+    3.5 Exploring Types:
+      
+4) iFrame Tag
+    4.1 Using iFrames:
+      1. Embedded Content: Allows you to embed another webpage or multimedia content within a webpage.
+      2. src Attribute: Specifies the URL of the content to be embedded.
+      3. Dimensions: Width and height can be set using width and height attributes.
+Project:
+1. Create a page with all type of ordered list and one unordered list.
+2. Create a table with headings, captions and a few rows. One of heading should take at least 3 columns.
+3. Create a contact me form with relevant details for your resume website.
+4. Use iFrame to add this video to your page
+
